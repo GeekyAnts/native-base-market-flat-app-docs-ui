@@ -19,7 +19,7 @@
             "gitbookConfigURL": "http://rawgit.com/GeekyAnts/native-base-market-flat-app-docs-ui/master/book.json",
             "options": [
               {
-                  "value": "http://docs.market.nativebase.io/react-native-flat-app-ui/",
+                  "value": "http://docs.market.nativebase.io/react-native-flat-app-ui",
                   "text": "v6.0.0"
               }
             ]
