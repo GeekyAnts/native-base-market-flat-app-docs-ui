@@ -16,21 +16,12 @@
       },
         "versions": {
 
-            "gitbookConfigURL": "http://rawgit.com/GeekyAnts/SwiggyApp-docs/master/book.json",
+            "gitbookConfigURL": "http://rawgit.com/GeekyAnts/native-base-market-flat-app-docs-ui/master/book.json",
             "options": [
-                {
-                    "value": "http://rawgit.com/GeekyAnts/SwiggyApp-docs/development/_book/index.html",
-                    "text": "development"
-                },
-                {
-                    "value": "http://docs.market.nativebase.io/react-native-food-ordering-app/",
-                    "text": "latest"
-                },
-                {
-                    "value": "http://docs.market.nativebase.io/react-native-food-ordering-app/",
-                    "text": "-- select version --",
-                    "selected": false
-                }
+              {
+                  "value": "http://docs.market.nativebase.io/react-native-flat-app-ui/",
+                  "text": "v6.0.0"
+              }
             ]
         },
         "ga": {
