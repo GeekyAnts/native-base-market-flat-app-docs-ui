@@ -2,13 +2,18 @@
     "plugins": [
         "ga",
         "versions",
-        "scripts"
+        "scripts",
+        "edit-link"
     ],
     "title": "NativeBase Market UI Themes",
     "variables":{
       "options": "react-native-flat-app-theme"
        },
     "pluginsConfig": {
+      "edit-link": {
+            "base": "https://github.com/GeekyAnts/native-base-market-flat-app-docs-ui/tree/master",
+            "label": "Edit This Page"
+        },
       "scripts": {
           "files": [
               "./engine.js"

@@ -21,7 +21,6 @@ _package.json_
     "react": "^15.4.2",
     "react-native": "^0.41.0",
     "react-native-animatable": "^0.6.1",
-    "react-native-code-push": "^1.17.0-beta",
     "react-native-easy-grid": "0.1.7",
     "react-native-lightbox": "^0.6.0",
     "react-native-modalbox": "^1.3.4",
