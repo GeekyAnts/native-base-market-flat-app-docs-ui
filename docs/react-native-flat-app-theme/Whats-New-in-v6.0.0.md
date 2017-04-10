@@ -3,7 +3,7 @@
 ####New Features
 
 * **Tabs**: Integrated Tabs functionality
-*   Using [**Create React Native App**](https://github.com/react-community/create-react-native-app)
+* Using [**Create React Native App**](https://github.com/react-community/create-react-native-app)
 
 #### Enhancements
 
