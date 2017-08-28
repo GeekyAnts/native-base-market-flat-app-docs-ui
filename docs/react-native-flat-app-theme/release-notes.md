@@ -4,7 +4,7 @@
 
 #### New Features
 
-*	Integrated Redux Form with Login, SignUP and Forgot Password screens
+*	Integrated Redux Form with Login, SignUp and Forgot Password screens
 *	Usage of Redux Store to fetch data
 *	Added Swipeable list component of NativeBase
 *	Usage of React Native's Flat list
@@ -44,12 +44,18 @@
 *	App design now supports smaller devices
 
 
+* * *
+
+
 ### 7.0.0
 
 #### New Features
 
 *   Using [**Create React Native App**](https://github.com/react-community/create-react-native-app)
 *   Upgraded to [React Native](https://github.com/facebook/react-native) 0.42.3
+
+* * *
+
 
 ### 6.0.0
 
