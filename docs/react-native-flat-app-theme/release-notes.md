@@ -1,5 +1,49 @@
 ### Release Notes
 
+### 8.0.0
+
+#### New Features
+
+*	Integrated Redux Form with Login, SignUP and Forgot Password screens
+*	Usage of Redux Store to fetch data
+*	Added Swipeable list component of NativeBase
+*	Usage of React Native's Flat list
+*	Integrated test cases with Jest
+*	Integrated ESlint
+* 	Integrated Flow
+*	Integrated Husky (git hooks)
+*	Integrated Pettier
+
+
+#### Upgraded Features
+
+*	Integrated React Navigation
+*	Upgraded NativeBase from 2.1.0-rc.2 to 2.3.1
+*	Upgraded React from 15.4.0 to 16.0.0-alpha.12
+*	Upgraded React Native from 0.42.3 to 0.46.4
+*	Upgraded React Native Easy Grid from 0.1.7 to 0.1.15
+*	Upgraded Expo from 15.1.2 to 19.0.1
+*	Upgraded Calendar package
+*	Upgraded Carousel package
+*	Other upgraded packages:
+	*	color: 0.11.3 to 1.0.3
+	*	react-native-modalbox: 1.3.4 to 1.4.2
+	*	react-redux: 4.4.5 to 5.0.5
+	*	redux: 3.5.2 to 3.7.2
+	*	redux-persist: 3.2.2 to 4.8.3
+	*	redux-thunk: 2.1.0 to 2.2.0
+	*	remote-redux-devtools: 0.3.3 to 0.5.0
+	*	remote-redux-devtools-on-debugger: 0.4.6 to 0.8.0
+*	Replaced Scrollable tabs by NativeBase tabs
+*	Modified structure of the project more efficiently
+
+
+#### Bug Fixes
+
+*	Modal fixes for Android
+*	App design now supports smaller devices
+
+
 ### 7.0.0
 
 #### New Features

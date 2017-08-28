@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>What's New in v7.0.0? · NativeBase Market UI Themes</title>
+        <title>What's new in v8.0.0? · NativeBase Market UI Themes</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -102,12 +102,12 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="Whats-New-in-v7.0.0.html">
+        <li class="chapter active" data-level="1.2" data-path="whats-new-in-v8.0.0.html">
             
-                <a href="Whats-New-in-v7.0.0.html">
+                <a href="whats-new-in-v8.0.0.html">
             
                     
-                    What's New in v7.0.0?
+                    What's new in v8.0.0?
             
                 </a>
             
@@ -128,9 +128,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="../common/installation.html">
+        <li class="chapter " data-level="1.4" data-path="installation/ReadMe.html">
             
-                <a href="../common/installation.html">
+                <a href="installation/ReadMe.html">
             
                     
                     Installation
@@ -138,6 +138,51 @@
                 </a>
             
 
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="installation/package-contents.html">
+            
+                <a href="installation/package-contents.html">
+            
+                    
+                    Package Contents
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="installation/react-native-app.html">
+            
+                <a href="installation/react-native-app.html">
+            
+                    
+                    React Native App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="installation/crna-app.html">
+            
+                <a href="installation/crna-app.html">
+            
+                    
+                    CRNA App
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
             
         </li>
     
@@ -255,7 +300,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >What's New in v7.0.0?</a>
+        <a href="../.." >What's new in v8.0.0?</a>
     </h1>
 </div>
 
@@ -270,11 +315,73 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="whats-new-in-700">What&apos;s new in 7.0.0</h1>
-<h4 id="enhancements">Enhancements</h4>
+                                <h1 id="whats-new-in-800">What&apos;s new in 8.0.0</h1>
+<h4 id="new-features">New Features</h4>
 <ul>
-<li>Created using <a href="https://github.com/react-community/create-react-native-app" target="_blank"><strong>Create React Native App</strong></a></li>
-<li>Upgraded to <a href="https://github.com/facebook/react-native" target="_blank"><strong>React Native</strong></a> 0.42.3</li>
+<li>Integrated Redux Form with Login, SignUp and Forgot Password screens to manage your form state in Redux.</li>
+<li>Usage of Redux Store to fetch data in Home screen.</li>
+<li>Added Swipeable list component of NativeBase to Profile screen.</li>
+<li>Usage of React Native&apos;s Flat list in Home screen.</li>
+<li>Integrated test cases with Jest<ul>
+<li>Fast interactive watch mode runs only test files related to changed files and is optimized to give signal quickly.</li>
+<li>Capture snapshots of React trees or other serializable values to simplify testing and to analyze how state changes over time.</li>
+</ul>
+</li>
+<li>Integrated ESlint, linter tool for identifying and reporting on patterns in javascript.</li>
+<li>Integrated Flow<ul>
+<li>A static type checker for javascript</li>
+<li>Flow infers types and tracks data as it moves through your code.</li>
+</ul>
+</li>
+<li>Integrated Husky<ul>
+<li>Prevents bad commit, push and more</li>
+<li>Builds precommit and other git hooks to run commands within your package.json before a commit is allowed.</li>
+</ul>
+</li>
+<li>Integrated Prettier<ul>
+<li>Reformats and reindents bookmarklet, ugly javascript code.</li>
+<li>Removes all original styling and ensures that all outputted code conforms to a consistent style.</li>
+</ul>
+</li>
+</ul>
+<h4 id="upgraded-features">Upgraded Features</h4>
+<ul>
+<li>Integrated React Navigation<ul>
+<li>Navigators allow you to define your application&apos;s navigation structure. </li>
+<li>Navigators also render common elements such as headers and tab bars which you can configure.</li>
+<li>React Navigation includes the following functions to help you create navigators:<ul>
+<li>StackNavigator</li>
+<li>TabNavigator</li>
+<li>DrawerNavigator</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Upgraded NativeBase from 2.1.0-rc.2 to 2.3.1</li>
+<li>Upgraded React from 15.4.0 to 16.0.0-alpha.12</li>
+<li>Upgraded React Native from 0.42.3 to 0.46.4</li>
+<li>Upgraded React Native Easy Grid from 0.1.7 to 0.1.15</li>
+<li>Upgraded Expo from 15.1.2 to 19.0.1</li>
+<li>Upgraded Calendar package which includes various customizable react native calendar components.</li>
+<li>Upgraded Carousel package</li>
+<li>Other upgraded packages:<ul>
+<li>color: 0.11.3 to 1.0.3</li>
+<li>react-native-modalbox: 1.3.4 to 1.4.2</li>
+<li>react-redux: 4.4.5 to 5.0.5</li>
+<li>redux: 3.5.2 to 3.7.2</li>
+<li>redux-persist: 3.2.2 to 4.8.3</li>
+<li>redux-thunk: 2.1.0 to 2.2.0</li>
+<li>remote-redux-devtools: 0.3.3 to 0.5.0</li>
+<li>remote-redux-devtools-on-debugger: 0.4.6 to 0.8.0</li>
+</ul>
+</li>
+<li>Replaced Scrollable tabs by NativeBase tabs in Comments and Channels&apos; screens.</li>
+<li>Modified structure of the project more efficiently.</li>
+</ul>
+<h4 id="bug-fixes">Bug Fixes</h4>
+<ul>
+<li>Modal fixes in Story screen for Android</li>
+<li>App design now supports smaller devices</li>
 </ul>
 <h4 id="roadmap">RoadMap</h4>
 <ul>
@@ -323,7 +430,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"What's New in v7.0.0?","level":"1.2","depth":1,"next":{"title":"Technologies","level":"1.3","depth":1,"path":"docs/common/technologies.md","ref":"./docs/common/technologies.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["ga","scripts","edit-link"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"scripts":{"files":["./engine.js"]},"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"fontsettings":{"family":"sans","size":2,"theme":"white"},"highlight":{},"ga":{"configuration":"auto","token":"UA-91837749-1"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"edit-link":{"label":"Edit This Page","base":"https://github.com/GeekyAnts/native-base-market-flat-app-docs-ui/tree/master"},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"options":"react-native-flat-app-theme"},"title":"NativeBase Market UI Themes","gitbook":"*"},"file":{"path":"docs/react-native-flat-app-theme/Whats-New-in-v7.0.0.md","mtime":"2017-06-13T11:52:29.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-13T11:55:24.342Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"What's new in v8.0.0?","level":"1.2","depth":1,"next":{"title":"Technologies","level":"1.3","depth":1,"path":"docs/common/technologies.md","ref":"./docs/common/technologies.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["ga","scripts","edit-link"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"scripts":{"files":["./engine.js"]},"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"fontsettings":{"family":"sans","size":2,"theme":"white"},"highlight":{},"ga":{"configuration":"auto","token":"UA-91837749-1"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"edit-link":{"label":"Edit This Page","base":"https://github.com/GeekyAnts/native-base-market-flat-app-docs-ui/tree/master"},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"options":"react-native-flat-app-theme"},"title":"NativeBase Market UI Themes","gitbook":"*"},"file":{"path":"docs/react-native-flat-app-theme/whats-new-in-v8.0.0.md","mtime":"2017-08-28T07:24:11.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-08-28T07:34:17.197Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
@@ -337,7 +444,7 @@
         
     
         
-        <script src="../../gitbook/gitbook-plugin-scripts/3ca099f487972711d3cba9c5d1a2252b-engine.js"></script>
+        <script src="../../gitbook/gitbook-plugin-scripts/5cf1409671eb517841fc43262bc28252-engine.js"></script>
         
     
         
