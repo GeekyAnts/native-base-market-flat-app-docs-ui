@@ -10,7 +10,7 @@ Run the following commands on your terminal to setup Flat App React Native Theme
 	*	Opt #1. Download ZIP
 
 		Not familiar with Git?
-		Click here to download Flat App React Native Theme.
+		Click [here](http://gitstrap.com/strapmobile/FlatApp/repository/archive.zip?ref=master) to download Flat App React Native Theme.
 		Extract the contents of ZIP file after downloading.
 		Downloading ZIP file does not help you to sync with further updates of Flat App.
 
@@ -21,14 +21,14 @@ Run the following commands on your terminal to setup Flat App React Native Theme
 
 *	**Install packages**
 ```
-cd FlatApp/FlatAppReactNative
+cd FlatApp/React-Native
 yarn
 react-native link react-native-vector-icons
 ```
 
 *	**Run on iOS**
 	*	Opt #1:
-		*	Open the project in Xcode from ios/FlatApp.xcodeproj
+		*	Open the project in Xcode from ios/StrapFlatApp.xcodeproj
 		*	Click `run` button to simulate
 	*	Opt #2:
 		*	Run `react-native run-ios` in your terminal

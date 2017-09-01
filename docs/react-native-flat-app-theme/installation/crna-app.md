@@ -10,7 +10,7 @@ Run the following commands on your terminal to setup Flat App CRNA Theme on your
 	*	Opt #1. Download ZIP
 
 		Not familiar with Git?
-		Click here to download Flat App CRNA Theme.
+		Click [here](http://gitstrap.com/strapmobile/FlatApp/repository/archive.zip?ref=master) to download Flat App CRNA Theme.
 		Extract the contents of ZIP file after downloading.
 		Downloading ZIP file does not help you to sync with further updates of Flat App.
 
@@ -21,7 +21,7 @@ Run the following commands on your terminal to setup Flat App CRNA Theme on your
 
 *	**Install packages**
 ```
-cd FlatApp/FlatAppCRNA
+cd FlatApp/CRNA
 yarn
 ```
 
