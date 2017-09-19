@@ -1,1 +1,3 @@
-{% include "./docs/react-native-flat-app-theme/README.md" %}
+# Deprecated
+
+## Please check [NativeBase Market](http://market.nativebase.io) for documentation
